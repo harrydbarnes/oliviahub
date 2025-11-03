@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Babysitting Olivia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Babysitting Olivia</h1>
+    </header>
+    <div class="tabs">
+        <button class="tab-link active" onclick="openTab(event, 'formula')">Formula 🍼</button>
+        <button class="tab-link" onclick="openTab(event, 'nappy')">Nappy 💩</button>
+        <button class="tab-link" onclick="openTab(event, 'bedtime')">Putting To Bed 😴</button>
+        <button class="tab-link" onclick="openTab(event, 'monitor')">Baby Monitor 📺</button>
+        <button class="tab-link" onclick="openTab(event, 'crying')">Crying 😭</button>
+    </div>
+
+    <div id="formula" class="tab-content active">
+        <div class="card safety">
+            <h2>Making a Bottle</h2>
+            <ul>
+                <li>Make sure the water tub is more than half full, fill up the inside bit if not and then proceed. The machine won't work if not enough in it, but will let you start one if it is *just* above what you need, so make sure you top it up.</li>
+                <li>Put bottle underneath, make sure number is on 6 and then press the middle button</li>
+                <li>After 20 seconds roughly it'll pause. Put lid on and shake for 10 seconds. You have two minutes to do this, otherwise it'll reset.</li>
+                <li>Then put back in, press button again.</li>
+                <li>After another 30 seconds roughly it'll be done. Put lid on and it's good to go</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>Feeding Time</h2>
+            <ul>
+                <li>Usually have a bib around Olivia or muslin.</li>
+                <li>Text us time she starts feeding. If she refuses for now, that's fine, just make a note when it was made, it is good up to 2 hours to start feeding.</li>
+                <li>Needs feeding every 2 hours roughly, from start of last one.</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>Cleaning Bottles</h2>
+            <ul>
+                <li>Sanitiser tub should be good for 24 hours, we will tell you when it is good until if over 24 hour stay. Needs a milton tablet or cap of liquid in fresh water to reset.</li>
+                <li>Clean bottles with dish soap and then rinse off, place in the tub. It needs 15 mins in there, but can stay in longer.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="nappy" class="tab-content">
+        <div class="card">
+            <h2>Nappy Change</h2>
+            <ul>
+                <li>Check nappy before each feed, unless she is clearly crying for food desperately.</li>
+                <li>Text us if it is a wee or poo. Should only be one poo in morning! 💩</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>Naps</h2>
+            <ul>
+                <li>We can tell you if Olivia is due naps when looking after.</li>
+                <li>Let us know when she goes to sleep and wakes up, and we can update when she will next be due a nap, if any, or updated bedtime.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="bedtime" class="tab-content">
+        <div class="card">
+            <h2>Winding Down</h2>
+            <ul>
+                <li>About half hour before bed time, which we can tell you on the day, try to wind Olivia down with less noise and talking to.</li>
+                <li>Check if due a feed soon, sometimes if within 30 mins or so she may delay sleep until had that.</li>
+            </ul>
+        </div>
+        <div class="card safety">
+            <h2>Getting to Sleep</h2>
+            <ul>
+                <li>Dummy is fine to help get to sleep. She likes to be rocked to sleep holding her, then you can put her down after she's been asleep for a couple mind.</li>
+                <li>She likes her pink rabbit and dummy in to get off to sleep when in the cot.</li>
+                <li>Once off to sleep check if pink rabbit is too close to mouth as don't want her choking! ⚠️</li>
+            </ul>
+        </div>
+        <div class="card positive">
+            <h2>Once Asleep</h2>
+            <ul>
+                <li>Once asleep turn baby monitor on and relax for a couple hours! ✅</li>
+                <li>If stirs early she might need dummy back in.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="monitor" class="tab-content">
+        <div class="card">
+            <h2>Baby Monitor</h2>
+            <ul>
+                <li>Hold power button for a few seconds to turn on.</li>
+                <li>Battery lasts 5+ hours hopefully but charges with standard phone charger.</li>
+                <li>Setup to play back any noise she makes and light up. Screen stays on.</li>
+                <li>Can zoom in if you like, it's one button to zoom in and then zoom out, just keep pressing it to do both.</li>
+                <li>She likes white noise playing which the camera does. Music icon on the monitor indicates this is on. 🎵 If not, press menu, right and then up and click play.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="crying" class="tab-content">
+        <div class="card">
+            <h2>Why is she crying?</h2>
+            <ul>
+                <li>Check if she is due a feed, it's 2 hours after the start of the last one.</li>
+                <li>When crying for food will start with n and sound like "neh" after first few cries.</li>
+                <li>Check if near nap time or bedtime. She may need rocking to get to sleep.</li>
+                <li>Sometimes stirs during sleep, if early in bedtime may need dummy in.</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
