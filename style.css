@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;700&display=swap');
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -11,6 +11,10 @@ header {
     color: white;
     text-align: center;
     padding: 1em 0;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
 }
 
 .tabs {
@@ -40,6 +44,8 @@ header {
 .tab-content {
     display: none;
     padding: 20px;
+    opacity: 0;
+    transition: opacity 0.15s ease-in-out;
 }
 
 .tab-content.active {
