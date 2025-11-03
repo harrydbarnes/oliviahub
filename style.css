@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: #fbfbf3;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #7800ba;
     color: white;
     text-align: center;
     padding: 1em 0;
@@ -32,7 +34,7 @@ header {
 }
 
 .tab-link.active {
-    background-color: #4CAF50;
+    background-color: #7800ba;
 }
 
 .tab-content {
@@ -50,6 +52,11 @@ header {
     padding: 20px;
     margin-bottom: 20px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-align: justify;
+}
+
+.card ul li {
+    margin-bottom: 10px;
 }
 
 .card h2 {
@@ -63,5 +70,5 @@ header {
 
 .positive {
     background-color: #ddffdd;
-    border-left: 5px solid #4CAF50;
+    border-left: 5px solid #7800ba;
 }
