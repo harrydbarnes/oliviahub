@@ -1,6 +1,6 @@
 :root {
     --breakpoint-tablet: 768px;
-    --main-content-width-desktop: 70%;
+    --main-content-width-tablet: 70%;
 }
 
 body {
@@ -85,7 +85,8 @@ header h1 {
 
 @media (min-width: var(--breakpoint-tablet)) {
     .tab-content {
-        width: var(--main-content-width-desktop);
+        width: var(--main-content-width-tablet);
+        max-width: 1200px;
         margin: 0 auto;
     }
 }
