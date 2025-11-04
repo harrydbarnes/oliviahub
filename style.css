@@ -77,3 +77,10 @@ header h1 {
     background-color: #ddffdd;
     border-left: 5px solid #4CAF50;
 }
+
+@media (min-width: 768px) {
+    .tab-content {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
