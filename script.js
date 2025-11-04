@@ -7,7 +7,7 @@ function openTab(evt, tabName) {
         // Use a timeout to allow the fade-out animation to complete before hiding the content
         setTimeout(function(content) {
             content.style.display = "none";
-        }, 150, tabcontent[i]);
+        }, 500, tabcontent[i]);
     }
 
     tablinks = document.getElementsByClassName("tab-link");
@@ -23,12 +23,7 @@ function openTab(evt, tabName) {
         setTimeout(function() {
             newTab.style.opacity = "1";
         }, 10);
-    }, 150);
+    }, 500);
 
     evt.currentTarget.className += " active";
 }
-
-// Get the element with id="defaultOpen" and click on it
-document.addEventListener("DOMContentLoaded", function() {
-    document.querySelector('.tab-link').click();
-});

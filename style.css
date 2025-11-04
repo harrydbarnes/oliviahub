@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;700&display=swap');
-
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -14,7 +12,7 @@ header {
 }
 
 header h1 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Pacifico', cursive;
 }
 
 .tabs {
@@ -45,11 +43,12 @@ header h1 {
     display: none;
     padding: 20px;
     opacity: 0;
-    transition: opacity 0.15s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
 }
 
 .tab-content.active {
     display: block;
+    opacity: 1;
 }
 
 .card {
@@ -76,5 +75,5 @@ header h1 {
 
 .positive {
     background-color: #ddffdd;
-    border-left: 5px solid #7800ba;
+    border-left: 5px solid #4CAF50;
 }
