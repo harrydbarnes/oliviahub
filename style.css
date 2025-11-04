@@ -1,3 +1,8 @@
+:root {
+    --breakpoint-tablet: 768px;
+    --main-content-width-tablet: 70%;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -76,4 +81,12 @@ header h1 {
 .positive {
     background-color: #ddffdd;
     border-left: 5px solid #4CAF50;
+}
+
+@media (min-width: var(--breakpoint-tablet)) {
+    .tab-content {
+        width: var(--main-content-width-tablet);
+        max-width: 1200px;
+        margin: 0 auto;
+    }
 }
